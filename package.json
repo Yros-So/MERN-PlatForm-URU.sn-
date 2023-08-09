@@ -1,0 +1,34 @@
+{
+  "name": "dimma",
+  "version": "1.0.0",
+  "description": "Ecom",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backEnd/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backEnd/server",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dimma"
+  },
+  "author": "Yros So",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.37.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "nodemailer": "^6.9.2",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
